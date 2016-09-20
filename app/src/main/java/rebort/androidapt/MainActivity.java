@@ -36,13 +36,7 @@ public class MainActivity extends AppCompatActivity {
     @Override public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_main, menu);
 
-        @DCEventParam
-        int param1 = 0;
-
-        @DCEventParam
-        int param2 = 1;
-
-
+        AptDC.log(this,"onCreateOptionsMenu");
 
         return true;
     }
